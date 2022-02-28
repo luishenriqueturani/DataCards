@@ -22,8 +22,17 @@
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: none;
+    color: #000000;
 }
 
 /* FIM RESET */
@@ -31,52 +40,112 @@ body{
 /* DEFINIÇÕES INICIAIS */
 
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'Jost';
+    src: url("../fonts/Jost-Black.ttf");
     font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/Ubuntu-Regular.ttf');
+    font-weight: 900;
 }
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'Jost';
+    src: url("../fonts/Jost-BlackItalic.ttf");
     font-style: italic;
-    font-weight: 400;
-    src: url('../fonts/Ubuntu-Italic.ttf');
+    font-weight: 900;
 }
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'Jost';
+    src: url("../fonts/Jost-Bold.ttf");
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/Ubuntu-Bold.ttf');
 }
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'Jost';
+    src: url("../fonts/Jost-BoldItalic.ttf");
     font-style: italic;
     font-weight: 700;
-    src: url('../fonts/Ubuntu-BoldItalic.ttf');
 }
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'Jost';
+    src: url("../fonts/Jost-ExtraBold.ttf");
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-ExtraBoldItalic.ttf");
+    font-style: italic;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-ExtraLight.ttf");
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-ExtraLightItalic.ttf");
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-Italic.ttf");
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-Light.ttf");
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/Ubuntu-Light.ttf');
 }
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'Jost';
+    src: url("../fonts/Jost-LightItalic.ttf");
     font-style: italic;
     font-weight: 300;
-    src: url('../fonts/Ubuntu-LightItalic.ttf');
 }
 @font-face {
-    font-family: 'Ubuntu';
+    font-family: 'Jost';
+    src: url("../fonts/Jost-Medium.ttf");
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/Ubuntu-Medium.ttf');
 }
 @font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
+    font-family: 'Jost';
+    src: url("../fonts/Jost-MediumItalic.ttf");
+    font-style: italic;
     font-weight: 500;
-    src: url('../fonts/Ubuntu-MediumItalic.ttf');
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-SemiBold.ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-SemiBoldItalic.ttf");
+    font-style: italic;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-Thin.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Jost';
+    src: url("../fonts/Jost-ThinItalic.ttf");
+    font-style: italic;
+    font-weight: 100;
 }
 
 :root{
@@ -93,10 +162,16 @@ body{
 
 /* ELEMENTOS */
 body{
-    font-family: 'Ubuntu';
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
 }
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 80px;
     width: 100%;
     background-color: var(--cinza-claro);
@@ -104,4 +179,68 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 20;
+}
+
+.title-header{
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+
+header .github-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+
+header .github-link svg{
+    height: auto;
+    width: 25px;
+    margin-right: 8px;
+}
+
+/* OVERLAY - SIDENAV */
+
+.overlay{
+    background-color: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 15;
+    display: none;
+}
+
+/* SIDENAV */
+
+.sidenav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: var(--cinza-claro);
+    z-index: 30;
+    padding: 16px;
+}
+
+.sidenav h1{
+    font-size: 32px
+}
+
+.sidenav .github-link svg{
+    height: auto;
+    width: 28px;
+}
+
+.sidenav .github-link {
+    height: max-content;
 }
