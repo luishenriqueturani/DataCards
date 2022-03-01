@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg27651"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="toggle-icon-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27653"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="11.730752"
+     inkscape:cx="19.137733"
+     inkscape:cy="25.190201"
+     inkscape:window-width="1920"
+     inkscape:window-height="996"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs27648" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;fill-opacity:0.99425;stroke:#000000;stroke-width:1.57941;stroke-linecap:round;paint-order:markers fill stroke"
+       id="rect27756"
+       width="11.053645"
+       height="1.1337841"
+       x="0.81795424"
+       y="2.1396556"
+       ry="0.2468439" />
+    <rect
+       style="fill:#000000;fill-opacity:0.99425;stroke:#000000;stroke-width:1.57941;stroke-linecap:round;paint-order:markers fill stroke"
+       id="rect27756-7"
+       width="11.053645"
+       height="1.1337841"
+       x="0.82602656"
+       y="5.6083474"
+       ry="0.2468439" />
+    <rect
+       style="fill:#000000;fill-opacity:0.99425;stroke:#000000;stroke-width:1.57941;stroke-linecap:round;paint-order:markers fill stroke"
+       id="rect27756-5"
+       width="11.053645"
+       height="1.1337841"
+       x="0.82418734"
+       y="9.1186981"
+       ry="0.2468439" />
+  </g>
+</svg>

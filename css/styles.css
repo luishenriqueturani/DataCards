@@ -219,7 +219,7 @@ header .github-link svg{
 .sidenav{
     position: fixed;
     top: 0;
-    left: 0;
+    left: -250px;
     height: 100vh;
     width: 250px;
     display: flex;
@@ -230,6 +230,11 @@ header .github-link svg{
     background-color: var(--cinza-claro);
     z-index: 30;
     padding: 16px;
+    transition: .3s;
+}
+
+.sidenav.active{
+    left: 0;
 }
 
 .sidenav h1{
@@ -243,4 +248,18 @@ header .github-link svg{
 
 .sidenav .github-link {
     height: max-content;
+}
+
+/* TOGGLE MENU */
+.toggle-menu-img rect{
+    transition: .5s;
+}
+#toggle-menu.active .toggle-row-top {
+    transform: rotate(45deg) translate(2px, -3px);
+}
+#toggle-menu.active .toggle-row-mid {
+    transform: translate(15px, 0px);
+}
+#toggle-menu.active .toggle-row-bottom {
+    transform: rotate(-45deg) translate(-6px, -1.5px);
 }
