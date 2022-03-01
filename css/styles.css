@@ -204,7 +204,7 @@ header .github-link svg{
 /* OVERLAY - SIDENAV */
 
 .overlay{
-    background-color: rgba(0, 0, 0, .3);
+    background-color: #000;
     position: fixed;
     top: 0;
     left: 0;
@@ -212,7 +212,13 @@ header .github-link svg{
     width: 100%;
     z-index: 15;
     display: none;
+    opacity: 0;
 }
+.overlay.active{
+    opacity: .1;
+    display: block;
+}
+
 
 /* SIDENAV */
 
@@ -231,6 +237,7 @@ header .github-link svg{
     z-index: 30;
     padding: 16px;
     transition: .3s;
+    box-shadow: 2px 0px 15px var(--cinza-claro);
 }
 
 .sidenav.active{
@@ -250,7 +257,18 @@ header .github-link svg{
     height: max-content;
 }
 
+.sidenav .footer-sidenav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
 /* TOGGLE MENU */
+.toggle-menu-img{
+    height: auto;
+    width: 32px;
+}
 .toggle-menu-img rect{
     transition: .5s;
 }

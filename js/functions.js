@@ -8,6 +8,38 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
         document.querySelector(`#sidenav`).classList.toggle("active");
         this.classList.toggle("active");
+        
+        let overlay = document.querySelector(`#overlay`)
+
+        overlay.classList.toggle("active");
+
+        /* if(overlay.classList.contains("active")){
+            fadeIn(overlay, 900, "block", 0.13);
+        }else{
+            fadeOut(overlay, 900);
+        } */
     })
 
 });
+
+function fadeIn(el, time, display, opacity){
+    let transition = time / 10;
+
+    el.style.transition = `${transition}s ease-in-out ${transition}s`;
+
+    el.style.display = display;
+
+    el.style.opacity = opacity;
+
+}
+
+function fadeOut(el, time){
+    let transition = time / 10;
+
+    el.style.transition = `${transition}s ease-in-out ${transition}s`;
+    
+    el.style.opacity = 0;
+    
+    el.style.display = "none";
+
+}
