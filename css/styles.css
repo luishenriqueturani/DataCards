@@ -35,6 +35,11 @@ a:hover{
     color: #000000;
 }
 
+ul{
+    padding: 0px;
+    margin: 0;
+}
+
 /* FIM RESET */
 
 /* DEFINIÇÕES INICIAIS */
@@ -280,4 +285,10 @@ header .github-link svg{
 }
 #toggle-menu.active .toggle-row-bottom {
     transform: rotate(-45deg) translate(-6px, -1.5px);
+}
+
+/* CORPO DA PÁGINA */
+
+main{
+    margin-top: 90px;
 }
