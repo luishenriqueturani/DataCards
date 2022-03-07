@@ -13,11 +13,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
         overlay.classList.toggle("active");
 
-        /* if(overlay.classList.contains("active")){
-            fadeIn(overlay, 900, "block", 0.13);
-        }else{
-            fadeOut(overlay, 900);
-        } */
     })
 
 });

@@ -319,3 +319,32 @@ article.conteudo{
     border-right: 1px solid var(--dark);
     width: max-content;
 }
+
+.menu-direito{
+    min-width: 250px;
+    padding: 0 16px 16px 0;
+    height: 100%;
+}
+
+.social-links-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.menu-direito .social-link{
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: .3s;
+}
+.menu-direito .social-link svg{
+    height: auto;
+    width: 28px;
+    transition: .3s;
+}
+.menu-direito .social-link:hover{
+    border-radius: 8px;
+    border: 1px solid var(--dark);
+}

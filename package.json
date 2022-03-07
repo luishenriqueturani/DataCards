@@ -1,0 +1,22 @@
+{
+  "name": "datacards",
+  "version": "1.0.0",
+  "description": "Busca de dados e escrita de json",
+  "main": "api/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luishenriqueturani/DataCards.git"
+  },
+  "author": "Luis Henrique Turani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luishenriqueturani/DataCards/issues"
+  },
+  "homepage": "https://github.com/luishenriqueturani/DataCards#readme"
+}
