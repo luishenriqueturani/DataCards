@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/luishenriqueturani/DataCards/issues"
   },
-  "homepage": "https://github.com/luishenriqueturani/DataCards#readme"
+  "homepage": "https://github.com/luishenriqueturani/DataCards#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
