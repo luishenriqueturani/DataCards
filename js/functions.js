@@ -25,9 +25,14 @@ document.addEventListener("DOMContentLoaded", function(e) {
 
     });
 
+    
+
+
+
 });
 
-function fadeIn(el, time, display, opacity){
+
+/* function fadeIn(el, time, display, opacity){
     let transition = time / 10;
 
     el.style.transition = `${transition}s ease-in-out ${transition}s`;
@@ -47,7 +52,7 @@ function fadeOut(el, time){
     
     el.style.display = "none";
 
-}
+} */
 
 let retTodos
 let result

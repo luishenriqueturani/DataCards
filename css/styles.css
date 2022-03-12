@@ -173,6 +173,7 @@ ul{
     --dark: #212121;
     --cinza: #BDBDBD;
     --cinza-claro: #ECEFF1;
+    --background-overlay: rgba(236,239,241,.5);
 }
 
 /* ELEMENTOS */
@@ -180,7 +181,6 @@ body{
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    position: relative;
 }
 
 header{
@@ -301,6 +301,7 @@ header .github-link svg{
 
 main{
     margin-top: 90px;
+    padding-top: 28px;
 }
 
 .menu-esquerdo{
@@ -318,6 +319,7 @@ article.conteudo{
     border-left: 1px solid var(--dark);
     border-right: 1px solid var(--dark);
     width: max-content;
+    margin-bottom: 36px;
 }
 
 .menu-direito{
@@ -348,6 +350,36 @@ article.conteudo{
     border-radius: 8px;
     border: 1px solid var(--dark);
 }
+
+/* Footer */
+
+footer{
+    padding: 32px 0;
+    background-color: var(--cinza-claro);
+    box-shadow: 0px -8px 15px var(--cinza-claro);
+}
+
+footer .social-link{
+    padding: 16px;
+    margin-right: -8px;
+    transition: .3s;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+footer .social-link:hover{
+    border: 1px solid var(--dark);
+}
+
+footer .social-link svg{
+    height: auto;
+    width: 28px;
+    margin-left: 8px;
+}
+
+
+
 
 
 /* media querys */
@@ -382,7 +414,9 @@ article.conteudo{
     }
 }
 @media (max-width: 575px) {
-    
+    footer .social-link svg{
+        margin-left: 0px;
+    }
 }
 @media (max-width: 460px) {
     
