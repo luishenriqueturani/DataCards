@@ -9,11 +9,21 @@ document.addEventListener("DOMContentLoaded", function(e) {
         document.querySelector(`#sidenav`).classList.toggle("active");
         this.classList.toggle("active");
         
-        let overlay = document.querySelector(`#overlay`)
+        let overlay = document.querySelector(`#overlay`);
 
         overlay.classList.toggle("active");
 
-    })
+    });
+    document.querySelector(`#overlay`).addEventListener("click", function(e){
+        e.preventDefault();
+        e.stopImmediatePropagation();
+
+        document.querySelector(`#sidenav`).classList.toggle("active");
+        document.querySelector(`#toggle-menu`).classList.toggle("active");
+        
+        this.classList.toggle("active");
+
+    });
 
 });
 
