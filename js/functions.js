@@ -1,35 +1,36 @@
 //ready
-document.addEventListener("DOMContentLoaded", function(e) {
+document.addEventListener("DOMContentLoaded", function (e) {
 
     //botão do menu
-    document.querySelector(`#toggle-menu`).addEventListener("click", function(e){
+    document.querySelector(`#toggle-menu`).addEventListener("click", function (e) {
         e.preventDefault();
         e.stopImmediatePropagation();
 
         document.querySelector(`#sidenav`).classList.toggle("active");
         this.classList.toggle("active");
-        
+
         let overlay = document.querySelector(`#overlay`);
 
         overlay.classList.toggle("active");
 
     });
-    document.querySelector(`#overlay`).addEventListener("click", function(e){
+    document.querySelector(`#overlay`).addEventListener("click", function (e) {
         e.preventDefault();
         e.stopImmediatePropagation();
 
         document.querySelector(`#sidenav`).classList.toggle("active");
         document.querySelector(`#toggle-menu`).classList.toggle("active");
-        
+
         this.classList.toggle("active");
 
     });
 
-    
 
 
 
 });
+var modalEl = document.querySelector(`#modal`);
+var modal = new bootstrap.Modal(modalEl);
 
 
 /* function fadeIn(el, time, display, opacity){
@@ -59,34 +60,89 @@ let result
 
 let json = [];
 
-async function buscarPokemonsAPI(){
+async function buscarPokemonsAPI() {
+
+    let cont = 0
+    let falhas = 0
+    let contGeral = 0
+
     retTodos = await fetch(`https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1126`);
-    result = await retTodos.json()
-    //console.log(result)
-    for(pkmn of result.results){
-        let retPkmn = await fetch(`${pkmn.url}`);
-        let resultPkmn = await retPkmn.json();
-        //console.log(resultPkmn);
 
-        let tipo = resultPkmn.types[0].type.name + (resultPkmn.types.length > 1 ? ` - ${resultPkmn.types[1].type.name}` : '');
+    if (retTodos.ok) {
 
-        json.push({
-            pekedex: resultPkmn.id,
-            name: resultPkmn.name,
-            sprite: resultPkmn.sprites.front_default,
-            type: tipo,
+        modal.show();
+        let total = document.querySelector(`.modal-body #total`)
+        let concluido = document.querySelector(`.modal-body #concluido`)
+        let falha = document.querySelector(`.modal-body #falha`)
+        let atual = document.querySelector(`.modal-body #atual`)
+        let progressBar = document.querySelector(`.modal-body .progress-bar`)
 
-        });
-        break;
-    }
-    console.log(json);
+        
+        result = await retTodos.json()
+        let totalReq = parseInt(result.results.length) 
 
-    let retSalvar = await fetch(`http://localhost:4001/salvar-pokemons`, {
-        method: 'POST',
-        body: JSON.stringify(json),
-        headers: {
-            "Content-Type": "application/json; charset=utf-8",
+        progressBar.setAttribute(`aria-valuemax`, result.results.length)
+        total.innerHTML = result.results.length
+
+        //console.log(result)
+        for (pkmn of result.results) {
+            let retPkmn = await fetch(`${pkmn.url}`);
+
+            if (retPkmn.ok) {
+
+                cont++
+
+                concluido.innerHTML = cont
+
+                let resultPkmn = await retPkmn.json();
+                //console.log(resultPkmn);
+
+                let tipo = resultPkmn.types[0].type.name + (resultPkmn.types.length > 1 ? ` - ${resultPkmn.types[1].type.name}` : '');
+
+                json.push({
+                    pekedex: resultPkmn.id,
+                    name: resultPkmn.name,
+                    sprite: resultPkmn.sprites.front_default,
+                    type: tipo,
+
+                });
+            } else {
+
+                falhas++
+
+                falha.innerHTML = falhas
+
+            }
+
+            contGeral++;
+
+            atual.innerHTML = contGeral;
+
+            progressBar.setAttribute(`aria-valuenow`, contGeral)
+            let width = ( (contGeral * 100) / totalReq)
+            progressBar.style.width = `${width}%`
+
+            if(contGeral > 75){
+
+                break;
+            }
+
         }
-    })
-    console.log(retSalvar.json());
+        console.log(json);
+
+        let retSalvar = await fetch(`http://localhost:4001/salvar-pokemons`, {
+            method: 'POST',
+            body: JSON.stringify(json),
+            headers: {
+                "Content-Type": "application/json; charset=utf-8",
+            }
+        })
+        console.log(retSalvar.json());
+    } else {
+        Swal.fire({
+            title: 'Não deu :(',
+            text: 'Falhou na busca da lista',
+            status: 'error'
+        })
+    }
 }

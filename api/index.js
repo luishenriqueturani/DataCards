@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const app = express();
 
-app.use(express.json(),function(req, res, next) {
+app.use(express.json({limit:20000000000000}),function(req, res, next) {
     
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
