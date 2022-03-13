@@ -21,7 +21,7 @@
         <nav class="container-fluid">
 
             <div class="d-flex align-items-center justify-content-between">
-                <a class="d-flex align-items-center justify-content-between" href="">
+                <a class="d-flex align-items-center justify-content-between" href="index.html">
 
                     <svg width="48" height="48" viewBox="0 0 12.7 12.7" version="1.1" id="svg5"
                         inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)" sodipodi:docname="data-cards-plugin-icon.svg"
@@ -234,7 +234,7 @@
 
     <nav class="sidenav" id="sidenav">
         <div class="header-sidenav d-flex align-items-center justify-content-between">
-            <a class="d-flex align-items-center justify-content-between" href="">
+            <a class="d-flex align-items-center justify-content-between" href="index.html">
                 <svg width="48" height="48" viewBox="0 0 12.7 12.7" version="1.1" id="svg5"
                     inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)" sodipodi:docname="data-cards-plugin-icon.svg"
                     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -399,7 +399,7 @@
         <div class="body-sidenav">
             <ul>
                 <li>
-                    <a href="" class="link-lateral">Início</a>
+                    <a href="index.html" class="link-lateral">Início</a>
                 </li>
                 <li>
                     <a href="exemplos.html" class="link-lateral">Exemplos</a>
@@ -418,22 +418,22 @@
         </div>
     </nav>
 
-    <main>
+    <main class="">
 
-        <section class="container-fluid max-width-100">
-            <div class="d-flex align-items-start justify-content-between max-width-100">
+        <section class="container-fluid">
+            <div class="d-flex align-items-start justify-content-between">
 
                 <aside class="menu-esquerdo" id="menu-esquerdo">
                     <ul id="links-menu-esquerdo">
                         <li>
-                            <a href="" class="link-lateral">Início</a>
+                            <a href="index.html" class="link-lateral">Início</a>
                         </li>
                         <li>
                             <a href="exemplos.html" class="link-lateral">Exemplos</a>
                         </li>
                     </ul>
                 </aside>
-                <article class="conteudo" id="conteudo">
+                <article class="conteudo w-100" id="conteudo">
 
                     <h3 class="titulo">Modelos de exemplo</h3>
 
@@ -443,13 +443,18 @@
 
                     <div class="content-table-default">
 
-                        <table class="tabela-modelo-default" id="tabela-modelo-default">
-                            <tr>
-                                <th>Pokédex</th>
-                                <th>Nome</th>
-                                <th>Tipos</th>
-                                <th>Imagem</th>
-                            </tr>
+                        <table class="tabela-modelo-default tabela w-100" id="tabela-modelo-default">
+                            <thead>
+                                <tr>
+                                    <th>Pokédex</th>
+                                    <th>Nome</th>
+                                    <th>Tipos</th>
+                                    <th class="imagem-pokemon">Imagem</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
                         </table>
 
                     </div>
@@ -479,11 +484,12 @@
 
         </section>
 
+        
         <footer class="w-100">
             <section class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6">
-                        <a class="d-flex align-items-center justify-content-start" href="">
+                        <a class="d-flex align-items-center justify-content-start" href="index.html">
                             <svg width="48" height="48" viewBox="0 0 12.7 12.7" version="1.1" id="svg5"
                                 inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
                                 sodipodi:docname="data-cards-plugin-icon.svg"
@@ -650,7 +656,7 @@
                                     </text>
                                 </g>
                             </svg>
-
+    
                             <h3 class="title-header">Data Cards - plugin</h3>
                         </a>
                     </div>
@@ -677,7 +683,6 @@
                 </div>
             </section>
         </footer>
-
     </main>
 
 

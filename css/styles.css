@@ -12,6 +12,7 @@
 
 html{
     width: 100vw;
+    max-width: 100%;
     min-height: 100vh;
 }
 
@@ -47,6 +48,10 @@ ul{
 
 .max-width-100{
     max-width: 100vw;
+}
+
+.o-h{
+    overflow: hidden;
 }
 
 
@@ -181,6 +186,7 @@ body{
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
+    max-width: 100vw;
 }
 
 header{
@@ -378,8 +384,32 @@ footer .social-link svg{
     margin-left: 8px;
 }
 
+/* tabelas */
+.tabela tr{
+    border-radius: 16px;
+    transition: .3s;
+}
+.tabela .id-pokemon{
+    border-radius: 16px 0 0 16px;
+}
+.tabela td.imagem-pokemon{
+    border-radius: 0px 16px 16px 0px;
+}
+.tabela tr:hover {
+    background-color: var(--cinza-claro);
+}
 
 
+.imagem-pokemon{
+    width: max-content;
+    max-width: 100px;
+}
+.nome-pokemon{
+    text-transform: capitalize;
+}
+
+
+/* datatables */
 
 
 /* media querys */

@@ -102,7 +102,7 @@ async function buscarPokemonsAPI() {
                 let tipo = resultPkmn.types[0].type.name + (resultPkmn.types.length > 1 ? ` - ${resultPkmn.types[1].type.name}` : '');
 
                 json.push({
-                    pekedex: resultPkmn.id,
+                    pokedex: resultPkmn.id,
                     name: resultPkmn.name,
                     sprite: resultPkmn.sprites.front_default,
                     type: tipo,
@@ -124,10 +124,10 @@ async function buscarPokemonsAPI() {
             let width = ( (contGeral * 100) / totalReq)
             progressBar.style.width = `${width}%`
 
-            if(contGeral > 75){
+            /* if(contGeral > 75){
 
                 break;
-            }
+            } */
 
         }
         console.log(json);
