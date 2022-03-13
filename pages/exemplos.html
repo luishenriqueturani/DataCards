@@ -435,14 +435,25 @@
                 </aside>
                 <article class="conteudo" id="conteudo">
 
-                    <h3 class="titulo">Sobre o Projeto</h3>
+                    <h3 class="titulo">Modelos de exemplo</h3>
 
                     <p>
-                        O Data Cards plugin é um projeto que visa possibilitar o uso dos sites que fazem uso do
-                        DataTables em
-                        aparelhos móveis, tanto Tablets quanto Smartphones, fazendo com que cada linha da tabela se
-                        torne um carde que se ajeita na tela.
+                        Segue abaixo alguns exemplos da aplicação do Data Cards - plugin.
                     </p>
+
+                    <div class="content-table-default">
+
+                        <table class="tabela-modelo-default" id="tabela-modelo-default">
+                            <tr>
+                                <th>Pokédex</th>
+                                <th>Nome</th>
+                                <th>Tipos</th>
+                                <th>Imagem</th>
+                            </tr>
+                        </table>
+
+                    </div>
+
 
                 </article>
                 <aside class="menu-direito" id="menu-direito">
@@ -670,29 +681,6 @@
     </main>
 
 
-    <div class="modal" tabindex="-1" id="modal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Transferindo...</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Total: <span id="total"></span></p>
-                    <p>Concluído: <span id="concluido"></span></p>
-                    <p>Falha: <span id="falha"></span></p>
-                    <p>Atual: <span id="atual"></span></p>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <!-- js -->
     <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
@@ -700,6 +688,7 @@
     <script src="../libs/datatables/datatables.min.js"></script>
     <script src="../libs/sweetalert2/js/sweetalert2.min.js"></script>
     <script src="../js/functions.js"></script>
+    <script src="../js/exemplos.js"></script>
 </body>
 
 </html>

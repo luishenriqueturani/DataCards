@@ -30,7 +30,9 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
 });
 var modalEl = document.querySelector(`#modal`);
-var modal = new bootstrap.Modal(modalEl);
+if(modalEl) {
+    var modal = new bootstrap.Modal(modalEl);
+}
 
 
 /* function fadeIn(el, time, display, opacity){
