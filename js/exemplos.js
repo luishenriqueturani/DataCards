@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     pokemons = await buscarListaPokemons();
 
+    console.log(pokemons);
+
     let html = ``;
 
     for (pkmn of pokemons) {
@@ -20,7 +22,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     await tbDefault.find(`tbody`).html(html);
 
-    tbDefault.DataTable({
+    await tbDefault.DataTable({
         "scrollX": true,
         responsive: true,
         language: {
@@ -30,7 +32,29 @@ document.addEventListener('DOMContentLoaded', async function () {
 
 });
 
-async function buscarListaPokemons() {
+function buscarListaPokemons() {
+    return new Promise(async function (resolve, reject) {
+        try {
+            var myHeaders = new Headers();
+
+            let response = await fetch(`http://localhost:4001/get-pokemons`,{
+                method: 'GET',
+               headers: myHeaders,
+               mode: 'cors',
+               cache: 'default' 
+            });
+            let retorno = response.json()
+            console.log(retorno)
+            resolve(retorno);
+        } catch (error) {
+            reject(error);
+        }
+
+    })
+
+
+}
+/* async function buscarListaPokemons() {
     return new Promise(function (resolve, reject) {
         try {
             $.getJSON(`../files/pokemons.json`, function (data) {
@@ -44,4 +68,4 @@ async function buscarListaPokemons() {
     })
 
 
-}
+} */

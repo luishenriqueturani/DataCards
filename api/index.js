@@ -1,5 +1,6 @@
 const express = require('express');
 const fs = require('fs');
+const cors = require('cors');
 
 const app = express();
 
@@ -36,6 +37,25 @@ app.post("/salvar-pokemons", function(req, res){
         }
     })
     
-})
+});
+
+app.get("/get-pokemons", cors(), async function(req, res) {
+    let arquivo
+    try{
+        const data = await fs.readFileSync("files/pokemons.json", 'utf8')
+    
+        console.log('entrou em ler arquivo')
+
+        arquivo = JSON.parse(data)
+
+        res.send(arquivo);
+
+    }catch(err){
+        console.log('caiu em erro')
+        res.send(err);
+    }
+});
+
+
 
 app.listen(4001, function(){ console.log('Rodando na porta 4001') })
