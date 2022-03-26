@@ -1,12 +1,32 @@
 class DataCardsPlugin{
 
     jQueryElement;
+    tableHeader;
 
     constructor(jQueryElement){
 
         this.jQueryElement = jQueryElement;
 
-        generateCards()
+        generateArrayTableHeader();
+
+        generateCards();
+
+    }
+
+    /**
+     * 
+     * Cria um array com os textos do table header
+     * 
+     * */
+    generateArrayTableHeader(){
+
+        tableHeader = [];
+
+        $(`.dataTables_scrollHeadInner`).find(`th`).each(function(i,e){ 
+            tableHeader.push({
+                th: $(e).text()
+            });
+        });
 
     }
 
@@ -28,16 +48,19 @@ class DataCardsPlugin{
             }
         });
 
+        let nameElement = jQqueryElement.attr(`id`);
+
         let data = [];
 
-        html = `<div class="cards-clientes w-100 mt-3" id="cards-clientes">
-        <div class="row w-100">`;
-
+        
         for (ind of i) {
-
+            
             data.push(elementRows[ind]);
-
+            
         }
+        
+        let html = `<div class="dc-${nameElement} w-100 mt-3" id="dc-${nameElement}">
+        <div class="row w-100">`;
 
         for(d of data) {
 
@@ -72,7 +95,7 @@ class DataCardsPlugin{
         html += `</div>
         </div>`;
 
-        $('#cards-clientes').remove()
+        $(`#dc-${nameElement}`).remove()
 
         $('.dataTables_scroll').append(html);
     }
