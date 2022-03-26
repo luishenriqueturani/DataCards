@@ -13,9 +13,16 @@ document.addEventListener('DOMContentLoaded', async function () {
         if (pkmn.sprite == null || pkmn.sprite == '') {
             imagem = 'Nenhuma imagem encontrada';
         } else {
-            imagem = `<img src="${pkmn.sprite}" class="sprite-pokemon" alt="Imagem de sprite de game pixel art do pokémon ${pkmn.name}">`
+            imagem = `<img src="${pkmn.sprite}" class="sprite-pokemon" alt="Imagem de sprite de game pixel art do pokémon ${pkmn.name}">`;
         }
-        html += `<tr><td class="id-pokemon">${pkmn.pokedex}</td><td class="nome-pokemon">${pkmn.name}</td><td class="tipo-pokemon">${pkmn.type}</td><td class="imagem-pokemon">${imagem}</td></tr>`
+        html += `<tr>
+                    <td class="id-pokemon">${pkmn.pokedex}</td>
+                    <td class="nome-pokemon">${pkmn.name}</td>
+                    <td class="tipo-pokemon">${pkmn.type}</td>
+                    <td class="habilidades-pokemon">${pkmn.abilities}</td>
+                    <td class="peso-pokemon">${pkmn.weight} lb</td>
+                    <td class="imagem-pokemon">${imagem}</td>
+                </tr>`;
     }
 
     let tbDefault = $(`#tabela-modelo-default`);

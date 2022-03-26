@@ -105,6 +105,22 @@ async function buscarPokemonsAPI() {
                 let resultPkmn = await retPkmn.json();
                 //console.log(resultPkmn);
 
+                let abilities = '';
+
+                if(resultPkmn.abilities.length > 1) {
+                    let numAbilities = resultPkmn.abilities.length
+
+                    for(let i = 0; i < numAbilities; i++) {
+                        abilities += resultPkmn.abilities[i].ability.name
+                        if((i + 1) != numAbilities){
+                            abilities += ' - ';
+                        }
+                    }
+
+                }else{
+                    abilities = resultPkmn.abilities[0].ability.name;
+                }
+
                 let tipo = resultPkmn.types[0].type.name + (resultPkmn.types.length > 1 ? ` - ${resultPkmn.types[1].type.name}` : '');
 
                 json.push({
@@ -112,7 +128,8 @@ async function buscarPokemonsAPI() {
                     name: resultPkmn.name,
                     sprite: resultPkmn.sprites.front_default,
                     type: tipo,
-
+                    weight: resultPkmn.weight,
+                    abilities: abilities
                 });
             } else {
 
