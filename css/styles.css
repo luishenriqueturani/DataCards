@@ -285,6 +285,32 @@ header .github-link svg{
     width: 100%;
 }
 
+.body-sidenav{
+    width: 100%;
+}
+.body-sidenav li{
+    padding: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+    position: relative;
+    width: max-content;
+}
+.body-sidenav li::after{
+    content: "";
+    height: 1px;
+    border: 1px solid var(--dark);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 5px;
+    transition: .3s;
+}
+
+.body-sidenav li:hover::after{
+    width: 100%;
+}
+
 /* TOGGLE MENU */
 .toggle-menu-img{
     height: auto;
@@ -317,7 +343,27 @@ main{
 }
 
 .menu-esquerdo li{
-    padding: 8px 0;
+    padding: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+    position: relative;
+    width: max-content;
+}
+
+.menu-esquerdo li::after{
+    content: "";
+    height: 1px;
+    border: 1px solid var(--dark);
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 5px;
+    transition: .3s;
+}
+
+.menu-esquerdo li:hover::after{
+    width: 100%;
 }
 
 article.conteudo{
@@ -326,6 +372,7 @@ article.conteudo{
     border-right: 1px solid var(--dark);
     width: max-content;
     margin-bottom: 36px;
+    min-height: 300px;
 }
 
 .menu-direito{
