@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         html += `<tr><td class="id-pokemon">${pkmn.pokedex}</td><td class="nome-pokemon">${pkmn.name}</td><td class="tipo-pokemon">${pkmn.type}</td><td class="imagem-pokemon">${imagem}</td></tr>`
     }
 
-    let tbDefault = $(`#tabela-modelo-default`)
+    let tbDefault = $(`#tabela-modelo-default`);
 
     await tbDefault.find(`tbody`).html(html);
 
@@ -54,18 +54,3 @@ function buscarListaPokemons() {
 
 
 }
-/* async function buscarListaPokemons() {
-    return new Promise(function (resolve, reject) {
-        try {
-            $.getJSON(`../files/pokemons.json`, function (data) {
-                //console.log(data)
-                resolve(data);
-            })
-        } catch (error) {
-            reject(error);
-        }
-
-    })
-
-
-} */

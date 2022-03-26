@@ -1,3 +1,9 @@
+window.addEventListener('load', function(e) {
+    setTimeout(function() {
+        document.querySelector(`#loader`).style.display = 'none';
+    }, 300);
+})
+
 //ready
 document.addEventListener("DOMContentLoaded", function (e) {
 
