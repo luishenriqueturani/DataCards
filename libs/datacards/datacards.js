@@ -60,13 +60,19 @@ class DataCardsPlugin{
         }
         
         let html = `<div class="dc-${nameElement} w-100 mt-3" id="dc-${nameElement}">
-        <div class="row w-100">`;
+        <div class="data-cards-content">`;
+
+        let case1, case2, case3, case4, case5, case6, case7, case8, case9, case10, img;
 
         for(d of data) {
 
             let size = d.length;//quantidade de colunas na tabela
 
-            switch(size){
+            for(i=0; i<size; i++) {
+                
+            }
+
+            /* switch(size){
                 case 1:
                     break;
                 case 2:
@@ -87,7 +93,7 @@ class DataCardsPlugin{
                     break;
                 case 10:
                     break;
-            }
+            } */
         }
 
 
@@ -97,7 +103,7 @@ class DataCardsPlugin{
 
         $(`#dc-${nameElement}`).remove()
 
-        $('.dataTables_scroll').append(html);
+        $('.dataTables_scroll').append( $(html) );
     }
 
 
