@@ -48,7 +48,7 @@ class DataCardsPlugin{
             }
         });
 
-        let nameElement = jQqueryElement.attr(`id`);
+        let nameElement = this.jQueryElement.attr(`id`);
 
         let data = [];
 
@@ -59,46 +59,64 @@ class DataCardsPlugin{
             
         }
         
-        let html = `<div class="dc-${nameElement} w-100 mt-3" id="dc-${nameElement}">
-        <div class="data-cards-content">`;
 
-        let case1, case2, case3, case4, case5, case6, case7, case8, case9, case10, img;
+        let img = ``;
+        let cardIdentifier = '';
+        let cardTitle = '';
+        let cardHtmlContent = '';
+        let dcHtml = '';
 
         for(d of data) {
 
             let size = d.length;//quantidade de colunas na tabela
 
             for(i=0; i<size; i++) {
+                switch(i){
+                    case 0:
+                        cardIdentifier = `<small>${d[i]}</small>`;
+                        break;
+                    case 1:
+                        cardTitle = `<h5 class="dc-title">${d[i]}</h5>`;
+                        break;
+                    default:
+                        if(d[i].includes('<img')){
+                            img = `
+                            <div class="dc-col">
+                                <figure>
+                                    <img src="${d[i]}">
+                                </figure>
+        
+                            </div>
+                            `;
+                        }else{
+                            cardHtmlContent += `<p><strong>${this.tableHeader[i]}: </strong>${d[i]}</p>`;
+                        }
+                        break;
+                }
                 
             }
 
-            /* switch(size){
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    break;
-                case 6:
-                    break;
-                case 7:
-                    break;
-                case 8:
-                    break;
-                case 9:
-                    break;
-                case 10:
-                    break;
-            } */
+            dcHtml += `
+            <div class="data-cards">
+                <div class="dc-header">
+                    ${cardTitle}
+                    ${cardIdentifier}
+                </div>
+                <div class="dc-content">
+                    <div class="dc-col">
+                        ${cardHtmlContent}
+                    </div>
+                    ${img}
+                </div>
+            </div>
+            `;
+
         }
 
-
-
-        html += `</div>
+        let html = `<div class="dc-${nameElement} w-100 mt-3" id="dc-${nameElement}">
+            <div class="data-cards-content"> 
+                ${dcHtml}
+            </div>
         </div>`;
 
         $(`#dc-${nameElement}`).remove()
