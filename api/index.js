@@ -39,7 +39,7 @@ app.post("/salvar-pokemons", function(req, res){
     
 });
 
-app.get("/get-pokemons", cors(), async function(req, res) {
+app.get("/get-pokemons", cors({origin: '*'}), async function(req, res) {
     let arquivo
     try{
         const data = await fs.readFileSync("files/pokemons.json", 'utf8')

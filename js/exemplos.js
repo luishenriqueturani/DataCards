@@ -37,6 +37,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
     });
 
+    let dcp = dataCardsPlugin(tbDefault);
+
 });
 
 function buscarListaPokemons() {
