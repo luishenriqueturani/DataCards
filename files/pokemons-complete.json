@@ -7182,5 +7182,1829 @@
         "type": "psychic - grass",
         "weight": 77,
         "abilities": "unnerve"
+    },
+    {
+        "pokedex": 10001,
+        "name": "deoxys-attack",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10001.png",
+        "type": "psychic",
+        "weight": 608,
+        "abilities": "pressure"
+    },
+    {
+        "pokedex": 10002,
+        "name": "deoxys-defense",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10002.png",
+        "type": "psychic",
+        "weight": 608,
+        "abilities": "pressure"
+    },
+    {
+        "pokedex": 10003,
+        "name": "deoxys-speed",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10003.png",
+        "type": "psychic",
+        "weight": 608,
+        "abilities": "pressure"
+    },
+    {
+        "pokedex": 10004,
+        "name": "wormadam-sandy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10004.png",
+        "type": "bug - ground",
+        "weight": 65,
+        "abilities": "anticipation - overcoat"
+    },
+    {
+        "pokedex": 10005,
+        "name": "wormadam-trash",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10005.png",
+        "type": "bug - steel",
+        "weight": 65,
+        "abilities": "anticipation - overcoat"
+    },
+    {
+        "pokedex": 10006,
+        "name": "shaymin-sky",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10006.png",
+        "type": "grass - flying",
+        "weight": 52,
+        "abilities": "serene-grace"
+    },
+    {
+        "pokedex": 10007,
+        "name": "giratina-origin",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10007.png",
+        "type": "ghost - dragon",
+        "weight": 6500,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10008,
+        "name": "rotom-heat",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10008.png",
+        "type": "electric - fire",
+        "weight": 3,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10009,
+        "name": "rotom-wash",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10009.png",
+        "type": "electric - water",
+        "weight": 3,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10010,
+        "name": "rotom-frost",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10010.png",
+        "type": "electric - ice",
+        "weight": 3,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10011,
+        "name": "rotom-fan",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10011.png",
+        "type": "electric - flying",
+        "weight": 3,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10012,
+        "name": "rotom-mow",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10012.png",
+        "type": "electric - grass",
+        "weight": 3,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10013,
+        "name": "castform-sunny",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10013.png",
+        "type": "fire",
+        "weight": 8,
+        "abilities": "forecast"
+    },
+    {
+        "pokedex": 10014,
+        "name": "castform-rainy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10014.png",
+        "type": "water",
+        "weight": 8,
+        "abilities": "forecast"
+    },
+    {
+        "pokedex": 10015,
+        "name": "castform-snowy",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10015.png",
+        "type": "ice",
+        "weight": 8,
+        "abilities": "forecast"
+    },
+    {
+        "pokedex": 10016,
+        "name": "basculin-blue-striped",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
+        "type": "water",
+        "weight": 180,
+        "abilities": "rock-head - adaptability - mold-breaker"
+    },
+    {
+        "pokedex": 10017,
+        "name": "darmanitan-zen",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10017.png",
+        "type": "fire - psychic",
+        "weight": 929,
+        "abilities": "sheer-force - zen-mode"
+    },
+    {
+        "pokedex": 10018,
+        "name": "meloetta-pirouette",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10018.png",
+        "type": "normal - fighting",
+        "weight": 65,
+        "abilities": "serene-grace"
+    },
+    {
+        "pokedex": 10019,
+        "name": "tornadus-therian",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10019.png",
+        "type": "flying",
+        "weight": 630,
+        "abilities": "regenerator"
+    },
+    {
+        "pokedex": 10020,
+        "name": "thundurus-therian",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10020.png",
+        "type": "electric - flying",
+        "weight": 610,
+        "abilities": "volt-absorb"
+    },
+    {
+        "pokedex": 10021,
+        "name": "landorus-therian",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10021.png",
+        "type": "ground - flying",
+        "weight": 680,
+        "abilities": "intimidate"
+    },
+    {
+        "pokedex": 10022,
+        "name": "kyurem-black",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10022.png",
+        "type": "dragon - ice",
+        "weight": 3250,
+        "abilities": "teravolt"
+    },
+    {
+        "pokedex": 10023,
+        "name": "kyurem-white",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10023.png",
+        "type": "dragon - ice",
+        "weight": 3250,
+        "abilities": "turboblaze"
+    },
+    {
+        "pokedex": 10024,
+        "name": "keldeo-resolute",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10024.png",
+        "type": "water - fighting",
+        "weight": 485,
+        "abilities": "justified"
+    },
+    {
+        "pokedex": 10025,
+        "name": "meowstic-female",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10025.png",
+        "type": "psychic",
+        "weight": 85,
+        "abilities": "keen-eye - infiltrator - competitive"
+    },
+    {
+        "pokedex": 10026,
+        "name": "aegislash-blade",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10026.png",
+        "type": "steel - ghost",
+        "weight": 530,
+        "abilities": "stance-change"
+    },
+    {
+        "pokedex": 10027,
+        "name": "pumpkaboo-small",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10027.png",
+        "type": "ghost - grass",
+        "weight": 35,
+        "abilities": "pickup - frisk - insomnia"
+    },
+    {
+        "pokedex": 10028,
+        "name": "pumpkaboo-large",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10028.png",
+        "type": "ghost - grass",
+        "weight": 75,
+        "abilities": "pickup - frisk - insomnia"
+    },
+    {
+        "pokedex": 10029,
+        "name": "pumpkaboo-super",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10029.png",
+        "type": "ghost - grass",
+        "weight": 150,
+        "abilities": "pickup - frisk - insomnia"
+    },
+    {
+        "pokedex": 10030,
+        "name": "gourgeist-small",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
+        "type": "ghost - grass",
+        "weight": 95,
+        "abilities": "pickup - frisk - insomnia"
+    },
+    {
+        "pokedex": 10031,
+        "name": "gourgeist-large",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10031.png",
+        "type": "ghost - grass",
+        "weight": 140,
+        "abilities": "pickup - frisk - insomnia"
+    },
+    {
+        "pokedex": 10032,
+        "name": "gourgeist-super",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10032.png",
+        "type": "ghost - grass",
+        "weight": 390,
+        "abilities": "pickup - frisk - insomnia"
+    },
+    {
+        "pokedex": 10033,
+        "name": "venusaur-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png",
+        "type": "grass - poison",
+        "weight": 1555,
+        "abilities": "thick-fat"
+    },
+    {
+        "pokedex": 10034,
+        "name": "charizard-mega-x",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10034.png",
+        "type": "fire - dragon",
+        "weight": 1105,
+        "abilities": "tough-claws"
+    },
+    {
+        "pokedex": 10035,
+        "name": "charizard-mega-y",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10035.png",
+        "type": "fire - flying",
+        "weight": 1005,
+        "abilities": "drought"
+    },
+    {
+        "pokedex": 10036,
+        "name": "blastoise-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10036.png",
+        "type": "water",
+        "weight": 1011,
+        "abilities": "mega-launcher"
+    },
+    {
+        "pokedex": 10037,
+        "name": "alakazam-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10037.png",
+        "type": "psychic",
+        "weight": 480,
+        "abilities": "trace"
+    },
+    {
+        "pokedex": 10038,
+        "name": "gengar-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10038.png",
+        "type": "ghost - poison",
+        "weight": 405,
+        "abilities": "shadow-tag"
+    },
+    {
+        "pokedex": 10039,
+        "name": "kangaskhan-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10039.png",
+        "type": "normal",
+        "weight": 1000,
+        "abilities": "parental-bond"
+    },
+    {
+        "pokedex": 10040,
+        "name": "pinsir-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10040.png",
+        "type": "bug - flying",
+        "weight": 590,
+        "abilities": "aerilate"
+    },
+    {
+        "pokedex": 10041,
+        "name": "gyarados-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10041.png",
+        "type": "water - dark",
+        "weight": 3050,
+        "abilities": "mold-breaker"
+    },
+    {
+        "pokedex": 10042,
+        "name": "aerodactyl-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10042.png",
+        "type": "rock - flying",
+        "weight": 790,
+        "abilities": "tough-claws"
+    },
+    {
+        "pokedex": 10043,
+        "name": "mewtwo-mega-x",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10043.png",
+        "type": "psychic - fighting",
+        "weight": 1270,
+        "abilities": "steadfast"
+    },
+    {
+        "pokedex": 10044,
+        "name": "mewtwo-mega-y",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10044.png",
+        "type": "psychic",
+        "weight": 330,
+        "abilities": "insomnia"
+    },
+    {
+        "pokedex": 10045,
+        "name": "ampharos-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10045.png",
+        "type": "electric - dragon",
+        "weight": 615,
+        "abilities": "mold-breaker"
+    },
+    {
+        "pokedex": 10046,
+        "name": "scizor-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10046.png",
+        "type": "bug - steel",
+        "weight": 1250,
+        "abilities": "technician"
+    },
+    {
+        "pokedex": 10047,
+        "name": "heracross-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10047.png",
+        "type": "bug - fighting",
+        "weight": 625,
+        "abilities": "skill-link"
+    },
+    {
+        "pokedex": 10048,
+        "name": "houndoom-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10048.png",
+        "type": "dark - fire",
+        "weight": 495,
+        "abilities": "solar-power"
+    },
+    {
+        "pokedex": 10049,
+        "name": "tyranitar-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10049.png",
+        "type": "rock - dark",
+        "weight": 2550,
+        "abilities": "sand-stream"
+    },
+    {
+        "pokedex": 10050,
+        "name": "blaziken-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10050.png",
+        "type": "fire - fighting",
+        "weight": 520,
+        "abilities": "speed-boost"
+    },
+    {
+        "pokedex": 10051,
+        "name": "gardevoir-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10051.png",
+        "type": "psychic - fairy",
+        "weight": 484,
+        "abilities": "pixilate"
+    },
+    {
+        "pokedex": 10052,
+        "name": "mawile-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png",
+        "type": "steel - fairy",
+        "weight": 235,
+        "abilities": "huge-power"
+    },
+    {
+        "pokedex": 10053,
+        "name": "aggron-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10053.png",
+        "type": "steel",
+        "weight": 3950,
+        "abilities": "filter"
+    },
+    {
+        "pokedex": 10054,
+        "name": "medicham-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
+        "type": "fighting - psychic",
+        "weight": 315,
+        "abilities": "pure-power"
+    },
+    {
+        "pokedex": 10055,
+        "name": "manectric-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10055.png",
+        "type": "electric",
+        "weight": 440,
+        "abilities": "intimidate"
+    },
+    {
+        "pokedex": 10056,
+        "name": "banette-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10056.png",
+        "type": "ghost",
+        "weight": 130,
+        "abilities": "prankster"
+    },
+    {
+        "pokedex": 10057,
+        "name": "absol-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10057.png",
+        "type": "dark",
+        "weight": 490,
+        "abilities": "magic-bounce"
+    },
+    {
+        "pokedex": 10058,
+        "name": "garchomp-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10058.png",
+        "type": "dragon - ground",
+        "weight": 950,
+        "abilities": "sand-force"
+    },
+    {
+        "pokedex": 10059,
+        "name": "lucario-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10059.png",
+        "type": "fighting - steel",
+        "weight": 575,
+        "abilities": "adaptability"
+    },
+    {
+        "pokedex": 10060,
+        "name": "abomasnow-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10060.png",
+        "type": "grass - ice",
+        "weight": 1850,
+        "abilities": "snow-warning"
+    },
+    {
+        "pokedex": 10061,
+        "name": "floette-eternal",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10061.png",
+        "type": "fairy",
+        "weight": 9,
+        "abilities": "flower-veil - symbiosis"
+    },
+    {
+        "pokedex": 10062,
+        "name": "latias-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10062.png",
+        "type": "dragon - psychic",
+        "weight": 520,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10063,
+        "name": "latios-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10063.png",
+        "type": "dragon - psychic",
+        "weight": 700,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10064,
+        "name": "swampert-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10064.png",
+        "type": "water - ground",
+        "weight": 1020,
+        "abilities": "swift-swim"
+    },
+    {
+        "pokedex": 10065,
+        "name": "sceptile-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10065.png",
+        "type": "grass - dragon",
+        "weight": 552,
+        "abilities": "lightning-rod"
+    },
+    {
+        "pokedex": 10066,
+        "name": "sableye-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10066.png",
+        "type": "dark - ghost",
+        "weight": 1610,
+        "abilities": "magic-bounce"
+    },
+    {
+        "pokedex": 10067,
+        "name": "altaria-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10067.png",
+        "type": "dragon - fairy",
+        "weight": 206,
+        "abilities": "pixilate"
+    },
+    {
+        "pokedex": 10068,
+        "name": "gallade-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10068.png",
+        "type": "psychic - fighting",
+        "weight": 564,
+        "abilities": "inner-focus"
+    },
+    {
+        "pokedex": 10069,
+        "name": "audino-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10069.png",
+        "type": "normal - fairy",
+        "weight": 320,
+        "abilities": "healer"
+    },
+    {
+        "pokedex": 10070,
+        "name": "sharpedo-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10070.png",
+        "type": "water - dark",
+        "weight": 1303,
+        "abilities": "strong-jaw"
+    },
+    {
+        "pokedex": 10071,
+        "name": "slowbro-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10071.png",
+        "type": "water - psychic",
+        "weight": 1200,
+        "abilities": "shell-armor"
+    },
+    {
+        "pokedex": 10072,
+        "name": "steelix-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10072.png",
+        "type": "steel - ground",
+        "weight": 7400,
+        "abilities": "sand-force"
+    },
+    {
+        "pokedex": 10073,
+        "name": "pidgeot-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10073.png",
+        "type": "normal - flying",
+        "weight": 505,
+        "abilities": "no-guard"
+    },
+    {
+        "pokedex": 10074,
+        "name": "glalie-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10074.png",
+        "type": "ice",
+        "weight": 3502,
+        "abilities": "refrigerate"
+    },
+    {
+        "pokedex": 10075,
+        "name": "diancie-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10075.png",
+        "type": "rock - fairy",
+        "weight": 278,
+        "abilities": "magic-bounce"
+    },
+    {
+        "pokedex": 10076,
+        "name": "metagross-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10076.png",
+        "type": "steel - psychic",
+        "weight": 9429,
+        "abilities": "tough-claws"
+    },
+    {
+        "pokedex": 10077,
+        "name": "kyogre-primal",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10077.png",
+        "type": "water",
+        "weight": 4300,
+        "abilities": "primordial-sea"
+    },
+    {
+        "pokedex": 10078,
+        "name": "groudon-primal",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10078.png",
+        "type": "ground - fire",
+        "weight": 9997,
+        "abilities": "desolate-land"
+    },
+    {
+        "pokedex": 10079,
+        "name": "rayquaza-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10079.png",
+        "type": "dragon - flying",
+        "weight": 3920,
+        "abilities": "delta-stream"
+    },
+    {
+        "pokedex": 10080,
+        "name": "pikachu-rock-star",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10080.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10081,
+        "name": "pikachu-belle",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10081.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10082,
+        "name": "pikachu-pop-star",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10082.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10083,
+        "name": "pikachu-phd",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10083.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10084,
+        "name": "pikachu-libre",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10084.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10085,
+        "name": "pikachu-cosplay",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10085.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10086,
+        "name": "hoopa-unbound",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10086.png",
+        "type": "psychic - dark",
+        "weight": 4900,
+        "abilities": "magician"
+    },
+    {
+        "pokedex": 10087,
+        "name": "camerupt-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10087.png",
+        "type": "fire - ground",
+        "weight": 3205,
+        "abilities": "sheer-force"
+    },
+    {
+        "pokedex": 10088,
+        "name": "lopunny-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10088.png",
+        "type": "normal - fighting",
+        "weight": 283,
+        "abilities": "scrappy"
+    },
+    {
+        "pokedex": 10089,
+        "name": "salamence-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10089.png",
+        "type": "dragon - flying",
+        "weight": 1126,
+        "abilities": "aerilate"
+    },
+    {
+        "pokedex": 10090,
+        "name": "beedrill-mega",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10090.png",
+        "type": "bug - poison",
+        "weight": 405,
+        "abilities": "adaptability"
+    },
+    {
+        "pokedex": 10091,
+        "name": "rattata-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10091.png",
+        "type": "dark - normal",
+        "weight": 38,
+        "abilities": "gluttony - hustle - thick-fat"
+    },
+    {
+        "pokedex": 10092,
+        "name": "raticate-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10092.png",
+        "type": "dark - normal",
+        "weight": 255,
+        "abilities": "gluttony - hustle - thick-fat"
+    },
+    {
+        "pokedex": 10093,
+        "name": "raticate-totem-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10093.png",
+        "type": "dark - normal",
+        "weight": 1050,
+        "abilities": "gluttony - hustle - thick-fat"
+    },
+    {
+        "pokedex": 10094,
+        "name": "pikachu-original-cap",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10094.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10095,
+        "name": "pikachu-hoenn-cap",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10095.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10096,
+        "name": "pikachu-sinnoh-cap",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10096.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10097,
+        "name": "pikachu-unova-cap",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10097.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10098,
+        "name": "pikachu-kalos-cap",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10098.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10099,
+        "name": "pikachu-alola-cap",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10099.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10100,
+        "name": "raichu-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
+        "type": "electric - psychic",
+        "weight": 210,
+        "abilities": "surge-surfer"
+    },
+    {
+        "pokedex": 10101,
+        "name": "sandshrew-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10101.png",
+        "type": "ice - steel",
+        "weight": 400,
+        "abilities": "snow-cloak - slush-rush"
+    },
+    {
+        "pokedex": 10102,
+        "name": "sandslash-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10102.png",
+        "type": "ice - steel",
+        "weight": 550,
+        "abilities": "snow-cloak - slush-rush"
+    },
+    {
+        "pokedex": 10103,
+        "name": "vulpix-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10103.png",
+        "type": "ice",
+        "weight": 99,
+        "abilities": "snow-cloak - snow-warning"
+    },
+    {
+        "pokedex": 10104,
+        "name": "ninetales-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
+        "type": "ice - fairy",
+        "weight": 199,
+        "abilities": "snow-cloak - snow-warning"
+    },
+    {
+        "pokedex": 10105,
+        "name": "diglett-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10105.png",
+        "type": "ground - steel",
+        "weight": 10,
+        "abilities": "sand-veil - tangling-hair - sand-force"
+    },
+    {
+        "pokedex": 10106,
+        "name": "dugtrio-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
+        "type": "ground - steel",
+        "weight": 666,
+        "abilities": "sand-veil - tangling-hair - sand-force"
+    },
+    {
+        "pokedex": 10107,
+        "name": "meowth-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10107.png",
+        "type": "dark",
+        "weight": 42,
+        "abilities": "pickup - technician - rattled"
+    },
+    {
+        "pokedex": 10108,
+        "name": "persian-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10108.png",
+        "type": "dark",
+        "weight": 330,
+        "abilities": "fur-coat - technician - rattled"
+    },
+    {
+        "pokedex": 10109,
+        "name": "geodude-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png",
+        "type": "rock - electric",
+        "weight": 203,
+        "abilities": "magnet-pull - sturdy - galvanize"
+    },
+    {
+        "pokedex": 10110,
+        "name": "graveler-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png",
+        "type": "rock - electric",
+        "weight": 1100,
+        "abilities": "magnet-pull - sturdy - galvanize"
+    },
+    {
+        "pokedex": 10111,
+        "name": "golem-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10111.png",
+        "type": "rock - electric",
+        "weight": 3160,
+        "abilities": "magnet-pull - sturdy - galvanize"
+    },
+    {
+        "pokedex": 10112,
+        "name": "grimer-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10112.png",
+        "type": "poison - dark",
+        "weight": 420,
+        "abilities": "poison-touch - gluttony - power-of-alchemy"
+    },
+    {
+        "pokedex": 10113,
+        "name": "muk-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
+        "type": "poison - dark",
+        "weight": 520,
+        "abilities": "poison-touch - gluttony - power-of-alchemy"
+    },
+    {
+        "pokedex": 10114,
+        "name": "exeggutor-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10114.png",
+        "type": "grass - dragon",
+        "weight": 4156,
+        "abilities": "frisk - harvest"
+    },
+    {
+        "pokedex": 10115,
+        "name": "marowak-alola",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
+        "type": "fire - ghost",
+        "weight": 340,
+        "abilities": "cursed-body - lightning-rod - rock-head"
+    },
+    {
+        "pokedex": 10116,
+        "name": "greninja-battle-bond",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10116.png",
+        "type": "water - dark",
+        "weight": 400,
+        "abilities": "battle-bond"
+    },
+    {
+        "pokedex": 10117,
+        "name": "greninja-ash",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10117.png",
+        "type": "water - dark",
+        "weight": 400,
+        "abilities": "battle-bond"
+    },
+    {
+        "pokedex": 10118,
+        "name": "zygarde-10-power-construct",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10118.png",
+        "type": "dragon - ground",
+        "weight": 335,
+        "abilities": "power-construct"
+    },
+    {
+        "pokedex": 10119,
+        "name": "zygarde-50-power-construct",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10119.png",
+        "type": "dragon - ground",
+        "weight": 3050,
+        "abilities": "power-construct"
+    },
+    {
+        "pokedex": 10120,
+        "name": "zygarde-complete",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10120.png",
+        "type": "dragon - ground",
+        "weight": 6100,
+        "abilities": "power-construct"
+    },
+    {
+        "pokedex": 10121,
+        "name": "gumshoos-totem",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10121.png",
+        "type": "normal",
+        "weight": 600,
+        "abilities": "stakeout - strong-jaw - adaptability"
+    },
+    {
+        "pokedex": 10122,
+        "name": "vikavolt-totem",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10122.png",
+        "type": "bug - electric",
+        "weight": 1475,
+        "abilities": "levitate"
+    },
+    {
+        "pokedex": 10123,
+        "name": "oricorio-pom-pom",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10123.png",
+        "type": "electric - flying",
+        "weight": 34,
+        "abilities": "dancer"
+    },
+    {
+        "pokedex": 10124,
+        "name": "oricorio-pau",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10124.png",
+        "type": "psychic - flying",
+        "weight": 34,
+        "abilities": "dancer"
+    },
+    {
+        "pokedex": 10125,
+        "name": "oricorio-sensu",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10125.png",
+        "type": "ghost - flying",
+        "weight": 34,
+        "abilities": "dancer"
+    },
+    {
+        "pokedex": 10126,
+        "name": "lycanroc-midnight",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10126.png",
+        "type": "rock",
+        "weight": 250,
+        "abilities": "keen-eye - vital-spirit - no-guard"
+    },
+    {
+        "pokedex": 10127,
+        "name": "wishiwashi-school",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10127.png",
+        "type": "water",
+        "weight": 786,
+        "abilities": "schooling"
+    },
+    {
+        "pokedex": 10128,
+        "name": "lurantis-totem",
+        "sprite": null,
+        "type": "grass",
+        "weight": 580,
+        "abilities": "leaf-guard - contrary"
+    },
+    {
+        "pokedex": 10129,
+        "name": "salazzle-totem",
+        "sprite": null,
+        "type": "poison - fire",
+        "weight": 810,
+        "abilities": "corrosion - oblivious"
+    },
+    {
+        "pokedex": 10130,
+        "name": "minior-orange-meteor",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10130.png",
+        "type": "rock - flying",
+        "weight": 400,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10131,
+        "name": "minior-yellow-meteor",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10131.png",
+        "type": "rock - flying",
+        "weight": 400,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10132,
+        "name": "minior-green-meteor",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10132.png",
+        "type": "rock - flying",
+        "weight": 400,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10133,
+        "name": "minior-blue-meteor",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10133.png",
+        "type": "rock - flying",
+        "weight": 400,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10134,
+        "name": "minior-indigo-meteor",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10134.png",
+        "type": "rock - flying",
+        "weight": 400,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10135,
+        "name": "minior-violet-meteor",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10135.png",
+        "type": "rock - flying",
+        "weight": 400,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10136,
+        "name": "minior-red",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10136.png",
+        "type": "rock - flying",
+        "weight": 3,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10137,
+        "name": "minior-orange",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10137.png",
+        "type": "rock - flying",
+        "weight": 3,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10138,
+        "name": "minior-yellow",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10138.png",
+        "type": "rock - flying",
+        "weight": 3,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10139,
+        "name": "minior-green",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10139.png",
+        "type": "rock - flying",
+        "weight": 3,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10140,
+        "name": "minior-blue",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10140.png",
+        "type": "rock - flying",
+        "weight": 3,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10141,
+        "name": "minior-indigo",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10141.png",
+        "type": "rock - flying",
+        "weight": 3,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10142,
+        "name": "minior-violet",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10142.png",
+        "type": "rock - flying",
+        "weight": 3,
+        "abilities": "shields-down"
+    },
+    {
+        "pokedex": 10143,
+        "name": "mimikyu-busted",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10143.png",
+        "type": "ghost - fairy",
+        "weight": 7,
+        "abilities": "disguise"
+    },
+    {
+        "pokedex": 10144,
+        "name": "mimikyu-totem-disguised",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10144.png",
+        "type": "ghost - fairy",
+        "weight": 28,
+        "abilities": "disguise"
+    },
+    {
+        "pokedex": 10145,
+        "name": "mimikyu-totem-busted",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10145.png",
+        "type": "ghost - fairy",
+        "weight": 28,
+        "abilities": "disguise"
+    },
+    {
+        "pokedex": 10146,
+        "name": "kommo-o-totem",
+        "sprite": null,
+        "type": "dragon - fighting",
+        "weight": 2075,
+        "abilities": "bulletproof - soundproof - overcoat"
+    },
+    {
+        "pokedex": 10147,
+        "name": "magearna-original",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10147.png",
+        "type": "steel - fairy",
+        "weight": 805,
+        "abilities": "soul-heart"
+    },
+    {
+        "pokedex": 10148,
+        "name": "pikachu-partner-cap",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10148.png",
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10149,
+        "name": "marowak-totem",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10149.png",
+        "type": "fire - ghost",
+        "weight": 980,
+        "abilities": "cursed-body - lightning-rod - rock-head"
+    },
+    {
+        "pokedex": 10150,
+        "name": "ribombee-totem",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10150.png",
+        "type": "bug - fairy",
+        "weight": 20,
+        "abilities": "honey-gather - shield-dust - sweet-veil"
+    },
+    {
+        "pokedex": 10151,
+        "name": "rockruff-own-tempo",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10151.png",
+        "type": "rock",
+        "weight": 92,
+        "abilities": "own-tempo"
+    },
+    {
+        "pokedex": 10152,
+        "name": "lycanroc-dusk",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10152.png",
+        "type": "rock",
+        "weight": 250,
+        "abilities": "tough-claws"
+    },
+    {
+        "pokedex": 10153,
+        "name": "araquanid-totem",
+        "sprite": null,
+        "type": "water - bug",
+        "weight": 2175,
+        "abilities": "water-bubble - water-absorb"
+    },
+    {
+        "pokedex": 10154,
+        "name": "togedemaru-totem",
+        "sprite": null,
+        "type": "electric - steel",
+        "weight": 130,
+        "abilities": "iron-barbs - lightning-rod - sturdy"
+    },
+    {
+        "pokedex": 10155,
+        "name": "necrozma-dusk",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10155.png",
+        "type": "psychic - steel",
+        "weight": 4600,
+        "abilities": "prism-armor"
+    },
+    {
+        "pokedex": 10156,
+        "name": "necrozma-dawn",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10156.png",
+        "type": "psychic - ghost",
+        "weight": 3500,
+        "abilities": "prism-armor"
+    },
+    {
+        "pokedex": 10157,
+        "name": "necrozma-ultra",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10157.png",
+        "type": "psychic - dragon",
+        "weight": 2300,
+        "abilities": "neuroforce"
+    },
+    {
+        "pokedex": 10158,
+        "name": "pikachu-starter",
+        "sprite": null,
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10159,
+        "name": "eevee-starter",
+        "sprite": null,
+        "type": "normal",
+        "weight": 65,
+        "abilities": "run-away - adaptability - anticipation"
+    },
+    {
+        "pokedex": 10160,
+        "name": "pikachu-world-cap",
+        "sprite": null,
+        "type": "electric",
+        "weight": 60,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10161,
+        "name": "meowth-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10161.png",
+        "type": "steel",
+        "weight": 75,
+        "abilities": "pickup - tough-claws - unnerve"
+    },
+    {
+        "pokedex": 10162,
+        "name": "ponyta-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10162.png",
+        "type": "psychic",
+        "weight": 240,
+        "abilities": "run-away - pastel-veil - anticipation"
+    },
+    {
+        "pokedex": 10163,
+        "name": "rapidash-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10163.png",
+        "type": "psychic - fairy",
+        "weight": 800,
+        "abilities": "run-away - pastel-veil - anticipation"
+    },
+    {
+        "pokedex": 10164,
+        "name": "slowpoke-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10164.png",
+        "type": "psychic",
+        "weight": 360,
+        "abilities": "gluttony - own-tempo - regenerator"
+    },
+    {
+        "pokedex": 10165,
+        "name": "slowbro-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10165.png",
+        "type": "poison - psychic",
+        "weight": 705,
+        "abilities": "quick-draw - own-tempo - regenerator"
+    },
+    {
+        "pokedex": 10166,
+        "name": "farfetchd-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10166.png",
+        "type": "fighting",
+        "weight": 420,
+        "abilities": "steadfast - scrappy"
+    },
+    {
+        "pokedex": 10167,
+        "name": "weezing-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10167.png",
+        "type": "poison - fairy",
+        "weight": 160,
+        "abilities": "levitate - neutralizing-gas - misty-surge"
+    },
+    {
+        "pokedex": 10168,
+        "name": "mr-mime-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10168.png",
+        "type": "ice - psychic",
+        "weight": 568,
+        "abilities": "vital-spirit - screen-cleaner - ice-body"
+    },
+    {
+        "pokedex": 10169,
+        "name": "articuno-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10169.png",
+        "type": "psychic - flying",
+        "weight": 509,
+        "abilities": "competitive"
+    },
+    {
+        "pokedex": 10170,
+        "name": "zapdos-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10170.png",
+        "type": "fighting - flying",
+        "weight": 582,
+        "abilities": "defiant"
+    },
+    {
+        "pokedex": 10171,
+        "name": "moltres-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10171.png",
+        "type": "dark - flying",
+        "weight": 660,
+        "abilities": "berserk"
+    },
+    {
+        "pokedex": 10172,
+        "name": "slowking-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10172.png",
+        "type": "poison - psychic",
+        "weight": 795,
+        "abilities": "curious-medicine - own-tempo - regenerator"
+    },
+    {
+        "pokedex": 10173,
+        "name": "corsola-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png",
+        "type": "ghost",
+        "weight": 5,
+        "abilities": "weak-armor - cursed-body"
+    },
+    {
+        "pokedex": 10174,
+        "name": "zigzagoon-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
+        "type": "dark - normal",
+        "weight": 175,
+        "abilities": "pickup - gluttony - quick-feet"
+    },
+    {
+        "pokedex": 10175,
+        "name": "linoone-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10175.png",
+        "type": "dark - normal",
+        "weight": 325,
+        "abilities": "pickup - gluttony - quick-feet"
+    },
+    {
+        "pokedex": 10176,
+        "name": "darumaka-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10176.png",
+        "type": "ice",
+        "weight": 400,
+        "abilities": "hustle - inner-focus"
+    },
+    {
+        "pokedex": 10177,
+        "name": "darmanitan-galar-standard",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10177.png",
+        "type": "ice",
+        "weight": 1200,
+        "abilities": "gorilla-tactics - zen-mode"
+    },
+    {
+        "pokedex": 10178,
+        "name": "darmanitan-galar-zen",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10178.png",
+        "type": "ice - fire",
+        "weight": 1200,
+        "abilities": "gorilla-tactics - zen-mode"
+    },
+    {
+        "pokedex": 10179,
+        "name": "yamask-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10179.png",
+        "type": "ground - ghost",
+        "weight": 15,
+        "abilities": "wandering-spirit"
+    },
+    {
+        "pokedex": 10180,
+        "name": "stunfisk-galar",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10180.png",
+        "type": "ground - steel",
+        "weight": 205,
+        "abilities": "mimicry"
+    },
+    {
+        "pokedex": 10181,
+        "name": "zygarde-10",
+        "sprite": null,
+        "type": "dragon - ground",
+        "weight": 335,
+        "abilities": "aura-break"
+    },
+    {
+        "pokedex": 10182,
+        "name": "cramorant-gulping",
+        "sprite": null,
+        "type": "flying - water",
+        "weight": 180,
+        "abilities": "gulp-missile"
+    },
+    {
+        "pokedex": 10183,
+        "name": "cramorant-gorging",
+        "sprite": null,
+        "type": "flying - water",
+        "weight": 180,
+        "abilities": "gulp-missile"
+    },
+    {
+        "pokedex": 10184,
+        "name": "toxtricity-low-key",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10184.png",
+        "type": "electric - poison",
+        "weight": 400,
+        "abilities": "punk-rock - minus - technician"
+    },
+    {
+        "pokedex": 10185,
+        "name": "eiscue-noice",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10185.png",
+        "type": "ice",
+        "weight": 890,
+        "abilities": "ice-face"
+    },
+    {
+        "pokedex": 10186,
+        "name": "indeedee-female",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10186.png",
+        "type": "psychic - normal",
+        "weight": 280,
+        "abilities": "own-tempo - synchronize - psychic-surge"
+    },
+    {
+        "pokedex": 10187,
+        "name": "morpeko-hangry",
+        "sprite": null,
+        "type": "electric - dark",
+        "weight": 30,
+        "abilities": "hunger-switch"
+    },
+    {
+        "pokedex": 10188,
+        "name": "zacian-crowned",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10188.png",
+        "type": "fairy - steel",
+        "weight": 3550,
+        "abilities": "intrepid-sword"
+    },
+    {
+        "pokedex": 10189,
+        "name": "zamazenta-crowned",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10189.png",
+        "type": "fighting - steel",
+        "weight": 7850,
+        "abilities": "dauntless-shield"
+    },
+    {
+        "pokedex": 10190,
+        "name": "eternatus-eternamax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10190.png",
+        "type": "poison - dragon",
+        "weight": 0,
+        "abilities": "pressure"
+    },
+    {
+        "pokedex": 10191,
+        "name": "urshifu-rapid-strike",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10191.png",
+        "type": "fighting - water",
+        "weight": 1050,
+        "abilities": "unseen-fist"
+    },
+    {
+        "pokedex": 10192,
+        "name": "zarude-dada",
+        "sprite": null,
+        "type": "dark - grass",
+        "weight": 700,
+        "abilities": "leaf-guard"
+    },
+    {
+        "pokedex": 10193,
+        "name": "calyrex-ice",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10193.png",
+        "type": "psychic - ice",
+        "weight": 8091,
+        "abilities": "as-one-glastrier"
+    },
+    {
+        "pokedex": 10194,
+        "name": "calyrex-shadow",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10194.png",
+        "type": "psychic - ghost",
+        "weight": 536,
+        "abilities": "as-one-spectrier"
+    },
+    {
+        "pokedex": 10195,
+        "name": "venusaur-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10195.png",
+        "type": "grass - poison",
+        "weight": 10000,
+        "abilities": "overgrow - chlorophyll"
+    },
+    {
+        "pokedex": 10196,
+        "name": "charizard-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10196.png",
+        "type": "fire - flying",
+        "weight": 10000,
+        "abilities": "blaze - solar-power"
+    },
+    {
+        "pokedex": 10197,
+        "name": "blastoise-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10197.png",
+        "type": "water",
+        "weight": 10000,
+        "abilities": "torrent - rain-dish"
+    },
+    {
+        "pokedex": 10198,
+        "name": "butterfree-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10198.png",
+        "type": "bug - flying",
+        "weight": 10000,
+        "abilities": "compound-eyes - tinted-lens"
+    },
+    {
+        "pokedex": 10199,
+        "name": "pikachu-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10199.png",
+        "type": "electric",
+        "weight": 10000,
+        "abilities": "static - lightning-rod"
+    },
+    {
+        "pokedex": 10200,
+        "name": "meowth-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10200.png",
+        "type": "normal",
+        "weight": 10000,
+        "abilities": "pickup - technician - unnerve"
+    },
+    {
+        "pokedex": 10201,
+        "name": "machamp-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10201.png",
+        "type": "fighting",
+        "weight": 10000,
+        "abilities": "guts - no-guard - steadfast"
+    },
+    {
+        "pokedex": 10202,
+        "name": "gengar-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10202.png",
+        "type": "ghost - poison",
+        "weight": 10000,
+        "abilities": "cursed-body"
+    },
+    {
+        "pokedex": 10203,
+        "name": "kingler-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10203.png",
+        "type": "water",
+        "weight": 10000,
+        "abilities": "hyper-cutter - shell-armor - sheer-force"
+    },
+    {
+        "pokedex": 10204,
+        "name": "lapras-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10204.png",
+        "type": "water - ice",
+        "weight": 10000,
+        "abilities": "water-absorb - shell-armor - hydration"
+    },
+    {
+        "pokedex": 10205,
+        "name": "eevee-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10205.png",
+        "type": "normal",
+        "weight": 10000,
+        "abilities": "run-away - adaptability - anticipation"
+    },
+    {
+        "pokedex": 10206,
+        "name": "snorlax-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10206.png",
+        "type": "normal",
+        "weight": 10000,
+        "abilities": "immunity - thick-fat - gluttony"
+    },
+    {
+        "pokedex": 10207,
+        "name": "garbodor-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10207.png",
+        "type": "poison",
+        "weight": 10000,
+        "abilities": "stench - weak-armor - aftermath"
+    },
+    {
+        "pokedex": 10208,
+        "name": "melmetal-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10208.png",
+        "type": "steel",
+        "weight": 10000,
+        "abilities": "iron-fist"
+    },
+    {
+        "pokedex": 10209,
+        "name": "rillaboom-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10209.png",
+        "type": "grass",
+        "weight": 10000,
+        "abilities": "overgrow - grassy-surge"
+    },
+    {
+        "pokedex": 10210,
+        "name": "cinderace-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10210.png",
+        "type": "fire",
+        "weight": 10000,
+        "abilities": "blaze - libero"
+    },
+    {
+        "pokedex": 10211,
+        "name": "inteleon-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10211.png",
+        "type": "water",
+        "weight": 10000,
+        "abilities": "torrent - sniper"
+    },
+    {
+        "pokedex": 10212,
+        "name": "corviknight-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10212.png",
+        "type": "flying - steel",
+        "weight": 10000,
+        "abilities": "pressure - unnerve - mirror-armor"
+    },
+    {
+        "pokedex": 10213,
+        "name": "orbeetle-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10213.png",
+        "type": "bug - psychic",
+        "weight": 10000,
+        "abilities": "swarm - frisk - telepathy"
+    },
+    {
+        "pokedex": 10214,
+        "name": "drednaw-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10214.png",
+        "type": "water - rock",
+        "weight": 10000,
+        "abilities": "strong-jaw - shell-armor - swift-swim"
+    },
+    {
+        "pokedex": 10215,
+        "name": "coalossal-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10215.png",
+        "type": "rock - fire",
+        "weight": 10000,
+        "abilities": "steam-engine - flame-body - flash-fire"
+    },
+    {
+        "pokedex": 10216,
+        "name": "flapple-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10216.png",
+        "type": "grass - dragon",
+        "weight": 10000,
+        "abilities": "ripen - gluttony - hustle"
+    },
+    {
+        "pokedex": 10217,
+        "name": "appletun-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10217.png",
+        "type": "grass - dragon",
+        "weight": 10000,
+        "abilities": "ripen - gluttony - thick-fat"
+    },
+    {
+        "pokedex": 10218,
+        "name": "sandaconda-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10218.png",
+        "type": "ground",
+        "weight": 10000,
+        "abilities": "sand-spit - shed-skin - sand-veil"
+    },
+    {
+        "pokedex": 10219,
+        "name": "toxtricity-amped-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10219.png",
+        "type": "electric - poison",
+        "weight": 10000,
+        "abilities": "punk-rock - plus - technician"
+    },
+    {
+        "pokedex": 10220,
+        "name": "centiskorch-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10220.png",
+        "type": "fire - bug",
+        "weight": 10000,
+        "abilities": "flash-fire - white-smoke - flame-body"
+    },
+    {
+        "pokedex": 10221,
+        "name": "hatterene-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10221.png",
+        "type": "psychic - fairy",
+        "weight": 10000,
+        "abilities": "healer - anticipation - magic-bounce"
+    },
+    {
+        "pokedex": 10222,
+        "name": "grimmsnarl-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10222.png",
+        "type": "dark - fairy",
+        "weight": 10000,
+        "abilities": "prankster - frisk - pickpocket"
+    },
+    {
+        "pokedex": 10223,
+        "name": "alcremie-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10223.png",
+        "type": "fairy",
+        "weight": 10000,
+        "abilities": "sweet-veil - aroma-veil"
+    },
+    {
+        "pokedex": 10224,
+        "name": "copperajah-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10224.png",
+        "type": "steel",
+        "weight": 10000,
+        "abilities": "sheer-force - heavy-metal"
+    },
+    {
+        "pokedex": 10225,
+        "name": "duraludon-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
+        "type": "steel - dragon",
+        "weight": 10000,
+        "abilities": "light-metal - heavy-metal - stalwart"
+    },
+    {
+        "pokedex": 10226,
+        "name": "urshifu-single-strike-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10226.png",
+        "type": "fighting - dark",
+        "weight": 10000,
+        "abilities": "unseen-fist"
+    },
+    {
+        "pokedex": 10227,
+        "name": "urshifu-rapid-strike-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10227.png",
+        "type": "fighting - water",
+        "weight": 10000,
+        "abilities": "unseen-fist"
+    },
+    {
+        "pokedex": 10228,
+        "name": "toxtricity-low-key-gmax",
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10228.png",
+        "type": "electric - poison",
+        "weight": 10000,
+        "abilities": "punk-rock - minus - technician"
     }
 ]
