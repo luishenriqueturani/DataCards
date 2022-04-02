@@ -48,6 +48,7 @@ figure{
 .dc-title{
     font-size: 26px;
     font-weight: 600;
+    text-transform: capitalize;
 }
 
 .dc-content{

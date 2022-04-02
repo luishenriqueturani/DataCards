@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     console.log(pokemons);
 
     let html = ``;
+    let htmlSec = ``;
 
     for (pkmn of pokemons) {
         let imagem
@@ -22,12 +23,24 @@ document.addEventListener('DOMContentLoaded', async function () {
                     <td class="habilidades-pokemon">${pkmn.abilities}</td>
                     <td class="peso-pokemon">${pkmn.weight} lb</td>
                     <td class="imagem-pokemon">${imagem}</td>
-                </tr>`;
+                </tr>
+        `;
+
+        htmlSec += `
+        <tr>
+            <td class="id-pokemon">${pkmn.pokedex}</td>
+            <td class="nome-pokemon">${pkmn.name}</td>
+            <td class="tipo-pokemon">${pkmn.type}</td>
+            <td class="imagem-pokemon">${imagem}</td>
+        </tr>
+        `;
     }
 
     let tbDefault = $(`#tabela-modelo-default`);
+    let tb2 = $(`#tabela-modelo-2`);
 
     await tbDefault.find(`tbody`).html(html);
+    await tb2.find(`tbody`).html(htmlSec);
 
     await tbDefault.DataTable({
         "scrollX": true,
@@ -36,8 +49,16 @@ document.addEventListener('DOMContentLoaded', async function () {
             url: `../libs/datatables/locale/dataTables.pt_br.json`
         },
     });
+    await tb2.DataTable({
+        "scrollX": true,
+        responsive: true,
+        language: {
+            url: `../libs/datatables/locale/dataTables.pt_br.json`
+        },
+    });
 
     let dcp = dataCardsPlugin(tbDefault);
+    let dcp2 = dataCardsPlugin(tb2);
 
 });
 

@@ -390,6 +390,8 @@ main{
     padding-top: 28px;
 }
 
+/* Menu esquerdo */
+
 .menu-esquerdo{
     min-width: 200px;
     padding: 0 16px 16px 0;
@@ -420,6 +422,8 @@ main{
     width: 100%;
 }
 
+/* Conteúdo central */
+
 article.conteudo{
     padding: 16px;
     border-left: 1px solid var(--dark);
@@ -428,6 +432,12 @@ article.conteudo{
     margin-bottom: 36px;
     min-height: 300px;
 }
+
+.content-table-default, .content-table-2{
+    margin-top: 48px;
+}
+
+/* Menu direito */
 
 .menu-direito{
     min-width: 200px;
