@@ -71,12 +71,14 @@ function generateCards(jQueryElementTable){
             
             if(!jQueryElementTable){
                 console.error("jQuery Element undefined")
-                return false
+                reject(false);
             }
         
             if(tableHeader.length == 0){
                 tableHeader = await generateArrayTableHeader();
             }
+            
+            let nameElement = jQueryElementTable.attr(`id`);
         
             let elementRows = jQueryElementTable.DataTable().rows({ page: 'current' }).data();
         
@@ -89,8 +91,6 @@ function generateCards(jQueryElementTable){
         
                 }
             });
-        
-            let nameElement = jQueryElementTable.attr(`id`);
         
             let data = [];
             
