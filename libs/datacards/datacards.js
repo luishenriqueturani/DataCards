@@ -1,6 +1,6 @@
 /**
  * Data Tables plugin
- * versão orientado em functions
+ * versão alfa
  * @author Luís Henrique Turani
  * 
  * */
