@@ -560,7 +560,9 @@ footer .social-link svg{
     }
 }
 @media (max-width: 460px) {
-    
+    .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter{
+        text-align: left;
+    }
 }
 @media (max-width: 360px) {
     

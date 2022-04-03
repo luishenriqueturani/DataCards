@@ -57,8 +57,8 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
     });
 
-    let dcp = dataCardsPlugin(tbDefault);
-    let dcp2 = dataCardsPlugin(tb2);
+    //let dcp = dataCardsPlugin(tbDefault);
+    //let dcp2 = dataCardsPlugin(tb2);
 
 });
 
