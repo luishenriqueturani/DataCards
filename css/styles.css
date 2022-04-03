@@ -521,7 +521,9 @@ footer .social-link svg{
 
 
 /* datatables */
-
+.dataTables_wrapper .dataTables_filter{
+    margin-bottom: 8px;
+}
 
 /* media querys */
 @media (max-width: 1400px) {
