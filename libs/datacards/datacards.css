@@ -73,9 +73,9 @@ figure{
     .dataTables_wrapper table{
         display: none;
     }
-    /* .data-cards-content{
+    .data-cards-content{
         display: flex;
-    } */
+    }
 }
 
 @media (max-width: 575px) {
