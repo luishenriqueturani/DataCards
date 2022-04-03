@@ -16,8 +16,6 @@ app.post("/salvar-pokemons", function(req, res){
     
     let body = req.body;
 
-    console.log(body);
-
     if(body == null || body == undefined){
         res.end(JSON.stringify({
             data: 'Body veio vazio'

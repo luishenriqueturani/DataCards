@@ -65,7 +65,6 @@ function fadeOut(el, time){
 
 let retTodos
 let result
-
 let json = [];
 
 async function buscarPokemonsAPI() {
@@ -77,14 +76,12 @@ async function buscarPokemonsAPI() {
     retTodos = await fetch(`https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1126`);
 
     if (retTodos.ok) {
-
         modal.show();
         let total = document.querySelector(`.modal-body #total`)
         let concluido = document.querySelector(`.modal-body #concluido`)
         let falha = document.querySelector(`.modal-body #falha`)
         let atual = document.querySelector(`.modal-body #atual`)
         let progressBar = document.querySelector(`.modal-body .progress-bar`)
-
         
         result = await retTodos.json()
         let totalReq = parseInt(result.results.length) 
@@ -92,23 +89,21 @@ async function buscarPokemonsAPI() {
         progressBar.setAttribute(`aria-valuemax`, result.results.length)
         total.innerHTML = result.results.length
 
-        //console.log(result)
         for (pkmn of result.results) {
             let retPkmn = await fetch(`${pkmn.url}`);
 
             if (retPkmn.ok) {
 
-                cont++
+                cont++;
 
-                concluido.innerHTML = cont
+                concluido.innerHTML = cont;
 
                 let resultPkmn = await retPkmn.json();
-                //console.log(resultPkmn);
 
                 let abilities = '';
 
                 if(resultPkmn.abilities.length > 1) {
-                    let numAbilities = resultPkmn.abilities.length
+                    let numAbilities = resultPkmn.abilities.length;
 
                     for(let i = 0; i < numAbilities; i++) {
                         abilities += resultPkmn.abilities[i].ability.name
@@ -134,35 +129,24 @@ async function buscarPokemonsAPI() {
             } else {
 
                 falhas++
-
                 falha.innerHTML = falhas
-
             }
 
             contGeral++;
-
             atual.innerHTML = contGeral;
 
             progressBar.setAttribute(`aria-valuenow`, contGeral)
             let width = ( (contGeral * 100) / totalReq)
             progressBar.style.width = `${width}%`
-
-            /* if(contGeral > 75){
-
-                break;
-            } */
-
         }
-        console.log(json);
-
         let retSalvar = await fetch(`http://localhost:4001/salvar-pokemons`, {
             method: 'POST',
             body: JSON.stringify(json),
             headers: {
                 "Content-Type": "application/json; charset=utf-8",
             }
-        })
-        console.log(retSalvar.json());
+        });
+
     } else {
         Swal.fire({
             title: 'Não deu :(',
