@@ -111,13 +111,10 @@ async function buscarPokemonsAPI() {
                             abilities += ' - ';
                         }
                     }
-
                 }else{
                     abilities = resultPkmn.abilities[0].ability.name;
                 }
-
                 let tipo = resultPkmn.types[0].type.name + (resultPkmn.types.length > 1 ? ` - ${resultPkmn.types[1].type.name}` : '');
-
                 json.push({
                     pokedex: resultPkmn.id,
                     name: resultPkmn.name,
@@ -127,14 +124,12 @@ async function buscarPokemonsAPI() {
                     abilities: abilities
                 });
             } else {
-
                 falhas++
                 falha.innerHTML = falhas
             }
 
             contGeral++;
             atual.innerHTML = contGeral;
-
             progressBar.setAttribute(`aria-valuenow`, contGeral)
             let width = ( (contGeral * 100) / totalReq)
             progressBar.style.width = `${width}%`
@@ -146,7 +141,6 @@ async function buscarPokemonsAPI() {
                 "Content-Type": "application/json; charset=utf-8",
             }
         });
-
     } else {
         Swal.fire({
             title: 'Não deu :(',
